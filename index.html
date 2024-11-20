@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="./images/background.jpg" alt="Background" class="background-image">
+            <div class="logo-container">
+                <img src="./images/odin-logo.png" alt="Logo Icon" class="logo-icon">
+                <span class="logo-text">ODIN</span>
+            </div>
+            <p class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+        </div>
+        <div class="form-section">
+            <h2>This is not a real online service!</h2>
+            <p>You know you want something like this is your life to help you realize your wildest dreams. Sign up <strong>now</strong> to get started</p>
+            <p><em>You know you want to.</em></p>
+
+            <form action="" id="signup-form">
+                <h3>Let's do this!</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="mail">EMAIL</label>
+                        <input type="email" id="mail" name="email" placeholder="joe@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" id="pwd" name="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-pwd" name="confirm-pwd" placeholder="Confirm Password">
+                        <p class="error-message" id="error-message">*Passwords do not match</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="btn" type="submit">Create an account</button>
+                    <p class="login-link">Already have an acount? <a href="#">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
